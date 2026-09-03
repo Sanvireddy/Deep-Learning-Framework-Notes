@@ -18,9 +18,7 @@
 
 ---
 
-## <a id="nb1"></a>Notebook 1 — PyTorch Tensors (Basic)
-
-**File:** `1_-_PyTorch_Tensors.ipynb`
+## <a id="nb1"></a>PyTorch Tensors (Basic)
 
 ### What is a Tensor?
 
@@ -97,9 +95,7 @@ torch.max(r)          # maximum scalar
 
 ---
 
-## <a id="nb2"></a>Notebook 2 — PyTorch Tensors (Deep Dive)
-
-**File:** `Video_2_-_Tensors.ipynb`
+## <a id="nb2"></a>PyTorch Tensors (Deep Dive)
 
 ### All Ways to Create Tensors
 
@@ -248,9 +244,8 @@ numpy_rand = pytorch_rand.numpy()
 
 ---
 
-## <a id="nb3"></a>Notebook 3 — Autograd
+## <a id="nb3"></a>Autograd
 
-**File:** `Video_3_-_Autograd.ipynb`
 
 ### What is Autograd?
 
@@ -388,9 +383,7 @@ torch.autograd.functional.vjp(do_some_doubling, inputs, v=my_gradients)
 
 ---
 
-## <a id="nb4"></a>Notebook 4 — Building Models in PyTorch
-
-**File:** `Video_4_-_Building_Models_in_PyTorch.ipynb`
+## <a id="nb4"></a>Building Models in PyTorch
 
 ### The `torch.nn.Module` Class
 
@@ -528,9 +521,7 @@ nn.NLLLoss()             # negative log-likelihood
 
 ---
 
-## <a id="nb5"></a>Notebook 5 — A Simple PyTorch Model (LeNet)
-
-**File:** `2_-_A_Simple_PyTorch_model.ipynb`
+## <a id="nb5"></a>A Simple PyTorch Model (LeNet)
 
 ### LeNet-5 Architecture
 
@@ -590,7 +581,7 @@ class LeNet(nn.Module):
 
 ---
 
-## <a id="nb6"></a>Notebook 6 — Dataset and DataLoader
+## <a id="nb6"></a>Dataset and DataLoader
 
 **File:** `3_-_Dataset_and_DataLoader.ipynb`
 
@@ -668,7 +659,7 @@ images, labels = dataiter.next()  # or next(dataiter)
 
 ---
 
-## <a id="nb7"></a>Notebook 7 — A Simple PyTorch Training Loop
+## <a id="nb7"></a>A Simple PyTorch Training Loop
 
 **File:** `4_-_A_Simple_PyTorch_Training_Loop.ipynb`
 
@@ -765,7 +756,7 @@ print(f'Accuracy: {100 * correct / total}%')
 
 ---
 
-## <a id="nb8"></a>Notebook 8 — TensorBoard Support in PyTorch
+## <a id="nb8"></a>TensorBoard Support in PyTorch
 
 **File:** `Video_5_-_Tensorboard_Support_in_PyTorch.ipynb`
 
@@ -849,7 +840,7 @@ Trained with:
 
 ---
 
-## <a id="nb9"></a>Notebook 9 — Getting Started with Captum (Model Interpretability)
+## <a id="nb9"></a>Getting Started with Captum (Model Interpretability)
 
 **File:** `Getting-Started-with-Captum.ipynb`
 
