@@ -6,15 +6,15 @@
 
 ## Table of Contents
 
-1. [Notebook 1 — PyTorch Tensors (Basic)](#nb1)
-2. [Notebook 2 — PyTorch Tensors (Deep Dive)](#nb2)
-3. [Notebook 3 — Autograd](#nb3)
-4. [Notebook 4 — Building Models in PyTorch](#nb4)
-5. [Notebook 5 — A Simple PyTorch Model (LeNet)](#nb5)
-6. [Notebook 6 — Dataset and DataLoader](#nb6)
-7. [Notebook 7 — A Simple PyTorch Training Loop](#nb7)
-8. [Notebook 8 — TensorBoard Support in PyTorch](#nb8)
-9. [Notebook 9 — Getting Started with Captum](#nb9)
+1. [PyTorch Tensors (Basic)](#nb1)
+2. [PyTorch Tensors (Deep Dive)](#nb2)
+3. [Autograd](#nb3)
+4. [Building Models in PyTorch](#nb4)
+5. [A Simple PyTorch Model (LeNet)](#nb5)
+6. [Dataset and DataLoader](#nb6)
+7. [A Simple PyTorch Training Loop](#nb7)
+8. [TensorBoard Support in PyTorch](#nb8)
+9. [Getting Started with Captum](#nb9)
 
 ---
 
