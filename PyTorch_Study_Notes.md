@@ -64,7 +64,8 @@ r3 = torch.rand(2, 2)  # same as r1 again!
 
 **ELI5:** A random seed is like a recipe. If you start with the same recipe number, you always bake the same cake.
 
-> **Interview Point:** Reproducibility is critical in ML research. Always set seeds when you need deterministic experiments.
+> **Interview Point:** Reproducibility is critical in ML research. Always set seeds when you need deterministic experiments. How does setting random seed generate same values? - Key idea is A seed fixes the starting point of the Pseudo Random Number Generator (PRNG). The PRNG then deterministically generates a sequence of values while updating its internal state.
+> Same seed + Same sequence of random operations -> same values
 
 ### Arithmetic Operations
 
